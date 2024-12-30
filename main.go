@@ -19,7 +19,6 @@ type director struct {
 	Firstname string `json:"firstname"`
 	Lastname  string ` json:"lastname"`
 }
-
 var movies []Movie
 
 func getMovies(w http.ResponseWriter, r *http.Request) {
