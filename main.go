@@ -9,7 +9,6 @@ import (
 	"strconv"
 	"github.com/gorilla/mux"
 )
-
 type Movie struct {
 	ID       string    `json:"id"`
 	Isbn     string    `json:"isbn"`
