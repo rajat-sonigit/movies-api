@@ -16,6 +16,7 @@ type Movie struct {
 	Title    string    `json:"title"`
 	Director *director `json:"director"`
 }
+
 type director struct {
 	Firstname string `json:"firstname"`
 	Lastname  string ` json:"lastname"`
