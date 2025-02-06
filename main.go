@@ -39,6 +39,7 @@ func getMovie(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 }
+
 func createMovie(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-type", "application/json")
 	var movie Movie
