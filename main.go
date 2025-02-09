@@ -25,7 +25,6 @@ func getMovies(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-type", "application/json")
 	json.NewEncoder(w).Encode(movies)
 }
-
 func getMovie(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-type", "application/json")
 	params := mux.Vars(r)
